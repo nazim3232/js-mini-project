@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#btn{
+    color:rgb(118, 17, 212);
+    padding: 10px;
+    border: none;
+    outline : none;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+#btn.active
+{
+    transform : translateX(-270px);
+}
+menu{
+    height: 100vh;
+    background-color: rgb(123, 98, 146);
+    width: 20%;
+    position: fixed;
+    right: 0px;
+    transform: translateX(100%);
+      transition: all 0.5s ease-in-out;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 2rem;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+menu.active
+{
+       transform: translateX(0%); 
+}

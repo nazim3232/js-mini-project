@@ -1,0 +1,23 @@
+#mother{
+height : 500px;
+width: 500px;
+background-color: green;
+position: relative
+}
+
+#child{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+     right: 0;
+    transform: translateX(100%);
+    transition: all 0.5s ease-in-out;
+}
+#child.active
+{
+    transform: translateX(0%);
+}
+#btn{
+    margin-top: 20px;
+}
