@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+.hurtContainer
+{
+    position : fixed;
+    top: -10vh;
+    transform: translateY(0vh);
+    animation: loveRain 2s linear ;
+}
+
+
+@keyframes loveRain{
+to{
+     transform: translateY(105vh);
+}
+}
