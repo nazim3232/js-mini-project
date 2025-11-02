@@ -1,0 +1,28 @@
+
+#bg-changer
+{
+    height: 20px;
+    width: 20px;
+    background-color: green;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    border-radius: 50%;
+    background-color: black;
+     transition: all 0.6s linear;
+
+}
+body{
+    transition: all 0.6s linear;
+}
+.active
+{
+    color: white;
+    background-color: black;
+    transition: all 0.6s linear;
+}
+.bg-color
+{
+    background-color: white !important;
+    transform: translateX(-20px);
+}
